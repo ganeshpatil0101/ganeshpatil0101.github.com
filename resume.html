@@ -22,6 +22,7 @@
     	width: 35%;
     	display: flex;
     	background-color: #50555f;
+    	flex-direction: column;
     }
     .content{
     	width: 65%;
@@ -54,7 +55,7 @@ flex-direction: column;
     }
     .heading-m, .heading-s, .regular{
 		font-family: Montserrat, sans-serif;
-		font-size: 15px;
+		font-size: 14px;
     }
     .heading-m{
     	font-weight: 600;
@@ -63,7 +64,7 @@ flex-direction: column;
     	font-size: 12px;
     }
     .regular{
-		font-size: 13px;
+		font-size: 12px;
     }
     .sub-heading-m{
     	font-family: 'Roboto Condensed', sans-serif;
@@ -72,7 +73,7 @@ flex-direction: column;
 		margin-left: 5px;
     }
     .exp{
-    	margin-top: 13px 
+    	margin-top: 15px 
     }
     .filled{
     	margin: 0px;
@@ -86,8 +87,14 @@ flex-direction: column;
 		width: 10px;
 		float: right;
 		height: 6px;
-		background-color: rgb(147, 149, 153);
+		background-color: rgb(185, 186, 188);
 		border: 0px none;
+    }
+    .sidenav-cotent{
+    	padding-left: 20px;
+    	padding-right: 10px;
+    	margin-top: 20px;
+    	color: #f5f5f5;
     }
     </style>
   </head>
@@ -98,11 +105,63 @@ flex-direction: column;
     		<div class="photo">
     			<img src="https://avatars3.githubusercontent.com/u/11988932?s=460&v=5">	
     		</div>
+    		<div class="sidenav-cotent">
+				<div class="about-me">
+					<i class="fa fa-chevron-right" aria-hidden="true"></i>
+					<span class="sub-heading-m" style="color: #f5f5f5;" > ABOUT ME</span>
+					<hr style="margin: 0px 0px 0px 20px;" />
+					<div class="regular" style="margin-left: 18px"  >
+								Joined Zedo as software engineer and in Jun 2014 promoted as sr. software engineer. worked on videoplayer project. In Jun 2016 promoted as Module Lead, where I worked on Gecko, chetak project. 
+					</div>	
+				</div>
+				<div style="margin-top: 40px">
+					<i class="fa fa-chevron-right" aria-hidden="true"></i>
+					<span class="sub-heading-m" style="color: #f5f5f5;" > CONTACT</span>
+					<hr style="margin: 0px 0px 0px 20px;" />
+					<div class="exp">
+    						<i class="fa fa-phone-square" style="font-size: 12px;" aria-hidden="true"></i>
+    						<span style="margin-left:5px ">
+								<span class="heading-m" > Phone </span>
+							</span>
+							<div class="regular" style="margin-left: 18px"  >
+								+91-9325137778
+							</div>
+    				</div>
+    				<div class="exp">
+    						<i class="fa fa-envelope fa-lg" style="font-size: 12px;" aria-hidden="true"></i>
+    						<span style="margin-left:5px ">
+								<span class="heading-m" > Email </span>
+							</span>
+							<div class="regular" style="margin-left: 18px"  >
+								ganeshpatil0101@gmail.com
+						</div>
+    				</div>
+    				<div class="exp">
+    						<i class="fa fa-globe fa-lg" style="font-size: 12px;" aria-hidden="true"></i>
+    						<span style="margin-left:5px ">
+								<span class="heading-m" > Website </span>
+							</span>
+							<div class="regular" style="margin-left: 18px"  >
+								<a href="https://ganeshpatil0101.github.io" style="text-decoration: none;color: white;">ganeshpatil0101.com</a>
+						</div>
+    				</div>
+    				<div class="exp">
+    						<i class="fa fa-map-marker fa-lg" style="font-size: 12px;" aria-hidden="true"></i>
+    						<span style="margin-left:5px ">
+								<span class="heading-m" > Home </span>
+							</span>
+							<div class="regular" style="margin-left: 18px"  >
+								A-401,Suman sanklp,Ambegaon BK,Pune-411046
+							</div>
+    				</div>
+				</div>
+			</div>
+
     	</div>
     	<div class="content">
     		<div class="title" >
-    			<span class="heading-l"><h1>Ganesh Patil</h1></span>
-    			<span class="heading-m" style="margin-left: 3px;" >
+    			<span class="heading-l" style="float: left;clear: both;"><h1>Ganesh Patil</h1></span>
+    			<span class="heading-m" style="margin-left: 3px;float: left;clear: both;" >
     				Javascript & UI Developer	
     			</span>
     		</div>
@@ -265,7 +324,7 @@ flex-direction: column;
 									<div class="regular" style="margin-left: 18px"  >
 										<table style="border: 0;width: 100%">
 										<tr>
-											<td>CSS</td>
+											<td>CSS3</td>
 											<td style="display: inline-flex;"> 
 												<hr class="filled" style="width: 40px" />
 											 	<hr class="empty" style="width:40px" />
